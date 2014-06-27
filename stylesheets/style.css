@@ -5,18 +5,27 @@
 body {
 	width: 980px;
 	margin: 0 auto;
+	
 	background: rgba(0,2,14,1);
+	font-family:Arial, Helvetica, sans-serif;
 }
 header, div.container, footer {
 	background: rgba(68,68,68,1);
 }
+div.social{
+	display:inline-block;
+	padding: 5px;
+	float:left;
+	}
 button.buttom-header {
 	border-radius:2px;
+	float:left;
 	width: 15px;
 	height: 15px;
 	position:relative;
 	padding: 0px;
 	border:0px;
+	margin-right:5px;
 	background: linear-gradient(top,#e2e2e2 0%,#fafafa 50%,#e2e2df 100%); 
 	background: -webkit-linear-gradient(top,#e2e2e2 0%,#fafafa 50%,#e2e2df 100%);
 	font-family: Social Seti;	 
@@ -39,12 +48,34 @@ button.buttom-header:before{
 	color: rgb(222,222,219) ;
 	border-right:  5px solid ;	
 }
+div.social p{
+	width:70px;
+	margin:0;
+	padding:3px 6px;
+	border-left:1px solid rgb(241,241,241);
+	float:left;
+	color:#bababa;
+	font-size:6px;
+	}
+div.banner{
+	width:468px;
+	height: 60px;
+	border:1px solid #06F;
+	border-radius:5px;
+	float:left;
+	margin: 5px 10px;
+	}
+div.logo{
+	float:left;
+	margin-top: 15px;
+	}
+	
 div.miniChat {
 	width: 254px;
 	position: relative;
 	border: 1px solid black;
 	border-radius: 10px;
-}
+	}
 div.miniChat div {
 	background:  url(../assets/images/bk1.png), url(../assets/images/bk2.png);
 	
