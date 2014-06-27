@@ -1,3 +1,48 @@
+@font-face{
+	font-family: Social Seti;
+	src: url(fonts/Grands.woff);
+	}
+body {
+	width: 980px;
+	margin: 0 auto;
+	background: rgba(0,2,14,1);
+
+}
+header, div.container, footer {
+	background: rgba(68,68,68,1);
+}
+button.buttom-header {
+	border-radius:2px;
+	width: 15px;
+	height: 15px;
+	position:relative;
+	padding: 0px;
+	border:0px;
+	background: linear-gradient(top,#e2e2e2 0%,#fafafa 50%,#e2e2df 100%),url(../assets/images/buttom_facebook.gif); 
+	background: -webkit-linear-gradient(top,#e2e2e2 0%,#fafafa 50%,#e2e2df 100%),url(../assets/images/buttom_facebook.gif);
+	font-family: Social Seti;
+	 
+}
+button.buttom-header.facebook {
+	 color: #4e6098;
+}
+button.buttom-header.twitter {
+	color: #85cffd;
+	}
+button.feeds {
+	color: #b4c8fc;
+	}
+button.buttom-header:before{
+	content: '';
+	position: absolute;
+	left: 5px;
+	bottom: -5px;
+	border: 5px solid transparent;
+	border-right:  5px solid; 
+	border-color:linear-gradient(top,#dcdcd92 0%,#d4d4d1 100%);
+	border-color: -webkit-linear-gradient(top,#dcdcd92 0%,#d4d4d1 100%);	
+	
+}
 div.miniChat {
 	width: 254px;
 	position: relative;
@@ -9,4 +54,4 @@ div.miniChat {
 div.miniChat div {
 	background:  url(../assets/images/bk1.png), url(../assets/images/bk2.png);
 	
-}
+.
