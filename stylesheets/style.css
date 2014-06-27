@@ -1,0 +1,12 @@
+div.miniChat {
+	width: 254px;
+	position: relative;
+	border: 1px solid black;
+	border-radius: 10px;
+
+
+}
+div.miniChat div {
+	background:  url(../assets/images/bk1.png), url(../assets/images/bk2.png);
+	
+}
